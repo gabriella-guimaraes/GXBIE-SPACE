@@ -40,7 +40,7 @@ nav ul li a{
 }
 
 a.active,a:hover{
-    background: #684a5e;
+    background: #79526c6b;
     transition: .5s;
 }
 
@@ -110,4 +110,11 @@ a.active,a:hover{
 
     }
 
+}
+
+@media (max-width: 653px){
+    label.logo{
+        font-size: 15px;
+        padding-left: 21px;
+    }
 }

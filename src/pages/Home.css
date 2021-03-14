@@ -3,6 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    color: #260c1d;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ededed;
@@ -23,9 +24,108 @@ body {
   background-attachment: fixed;
 }
 
-/* text-align: center;
-margin-right: 30%;
-font-size: 68px;
-position: absolute;
-top: 218px;
-left: 70px; */
+.intro{
+  max-width: 50%;
+  max-height: 100px;
+  margin: 0 99px;
+  padding: 177px 0px;
+}
+
+#introTitle{
+  font-size: 70px;
+}
+
+#introText{
+  font-size: 26px;
+}
+
+#introText a {
+  color: #73022c;
+  cursor: pointer;
+}
+
+/* @media (max-width: 1024px){
+  .intro{
+    max-width: 43%;
+    max-height: 100px;
+    margin: 0 99px;
+    padding: 177px 0px;
+  }
+} */
+
+@media (max-width: 858px){
+  /* .headerImg{
+    height: calc(80vh - 80px);
+  } */
+
+  .intro{
+    max-width: 55%;
+    max-height: 100px;
+    margin: 0 80px;
+    padding: 216px 0px;
+  }
+
+  #introTitle {
+    font-size: 60px;
+  }
+
+  #introText {
+    font-size: 28px;
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width: 653px){
+  .intro{
+    max-width: 70%;
+    max-height: 100px;
+    margin: 0 40px;
+    padding: 130px 0px;
+  }
+
+  #introTitle {
+    font-size: 36px;
+  }
+
+  #introText {
+    font-size: 18px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 568px){
+  .intro{
+    max-width: 60%;
+    max-height: 100px;
+    margin: 0 32px;
+    padding: 90px 0px;
+  }
+
+  #introTitle {
+    font-size: 28px;
+  }
+
+  #introText {
+    font-size: 16px;
+    max-width: 100%;
+  }
+}
+
+/* @media (max-width: 540px){
+  .intro{
+    max-width: 60%;
+    max-height: 100px;
+    margin: 0 32px;
+    padding: 90px 0px;
+  }
+
+  #introTitle {
+    font-size: 28px;
+  }
+
+  #introText {
+    font-size: 16px;
+    max-width: 100%;
+  }
+} */
