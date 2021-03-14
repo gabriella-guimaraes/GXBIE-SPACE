@@ -1,13 +1,24 @@
+import About from './pages/About';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Design from './pages/Design';
+import Edits from './pages/Edits';
+import Home from './pages/Home'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Switch>
+
+      <Route path="/" component={Home} exact />
+      <Route path="/sobre" component={About} exact />
+      <Route path="/design" component={Design} exact />
+      <Route path="/edits" component={Edits} exact />
+
+    </Switch>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
