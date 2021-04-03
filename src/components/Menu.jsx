@@ -19,7 +19,7 @@ function Menu() {
                         <Link className="active" to="/">Home</Link>
                     </li>
                     <li>
-                        <Link className="active" to="/sobre">Sobre</Link>
+                        <Link className="active" to="/about">Sobre</Link>
                     </li>
                     <li>
                         <Link className="active" to="/design">Design</Link>

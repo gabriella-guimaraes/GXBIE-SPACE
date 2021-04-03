@@ -29,18 +29,19 @@ body {
   max-height: 100px;
   margin: 0 99px;
   padding: 177px 0px;
+  color: #ededed;
 }
 
 #introTitle{
-  font-size: 70px;
+  font-size: 67px;
 }
 
 #introText{
-  font-size: 26px;
+  font-size: 23px;
 }
 
 #introText a {
-  color: #73022c;
+  color: #f52032;
   cursor: pointer;
 }
 
@@ -129,3 +130,41 @@ body {
     max-width: 100%;
   }
 } */
+
+.posts{
+  margin: 0 auto;
+  max-width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px 20px;
+  background-color: #cec3ca81;
+  cursor: pointer;
+}
+
+.posts:hover{
+  background: #a89ea581;
+  transition: .5s;
+}
+
+.post-content{
+  display: flex;
+}
+
+.profileImg{
+  max-width: 250px;
+  margin-left: 12px;
+  /* box-shadow: 60px -16px teal; */
+  -webkit-box-shadow:18px -10px 0px 0px rgb(119, 7, 22);
+  -moz-box-shadow:18px -10px 0px 0px rgba(119, 7, 22, 0.75);
+  box-shadow: 18px -10px 0px 0px rgba(119, 7, 22, 0.75);
+}
+
+.post-tittle{
+  font-size: 32px;
+  display: inline-block;
+}
+
+.post-text{
+  margin-top: 10px;
+}
+

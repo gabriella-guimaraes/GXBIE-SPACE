@@ -13,7 +13,7 @@ ReactDOM.render(
     <Switch>
 
       <Route path="/" component={Home} exact />
-      <Route path="/sobre" component={About} exact />
+      <Route path="/about" component={About} exact />
       <Route path="/design" component={Design} exact />
       <Route path="/edits" component={Edits} exact />
 
